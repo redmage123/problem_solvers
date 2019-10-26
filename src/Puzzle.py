@@ -1,4 +1,4 @@
-Generic Puzzle Solving Framework
+""" Generic Puzzle Solving Framework
 Based on: version 9, (27-Mar-2002) of Raymond Hettinger's short library'
 http://users.rcn.com/python/download/python.htm
 Modified by Freek Dijkstra for Python 3.
@@ -310,11 +310,11 @@ class HVBlockSlidePuzzle( Puzzle ):
     This sliding block puzzle has blocks of size 1x2 or 1x3.
     Horizontally orientated blocks can only move horizontally.
     Vertically orientated blocks can only move vertically.
-        1112  
+        1112
         3  245
         3 0045
         667 45
-        897AA 
+        897AA
         89BBCC
     """
     pos =   '1112  '\
